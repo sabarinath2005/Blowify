@@ -13,7 +13,7 @@ const CandleBlow = () => {
   const audioRef = useRef(null);
   const navigate = useNavigate();
 
-  const THRESHOLD = 180;
+  const THRESHOLD = 150;
 
   useEffect(() => {
     let audioContext, analyser, microphone, dataArray;
