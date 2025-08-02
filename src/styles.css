@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    #ff9a9e,
+    #fad0c4,
+    #a18cd1,
+    #fbc2eb,
+    #a6c1ee
+  );
+  background-size: 400% 400%;
+  animation: bgAnimation 15s ease infinite;
+  margin: 0;
+  padding: 2rem;
+}
+
+@keyframes bgAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.level {
+  padding: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.gift-popup {
+  margin-top: 20px;
+  padding: 1rem;
+  border: 2px dashed #aaa;
+  background: #f9f9f9;
+}
